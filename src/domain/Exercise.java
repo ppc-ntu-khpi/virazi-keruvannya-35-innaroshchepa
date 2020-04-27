@@ -20,7 +20,7 @@ public static boolean Calculate(int number) {
     int count=0;             
     int num=number;           
     int Arm=0;                
-    int[] digits = new int[3];
+    int[] digits = new int[5];
     //array filling and number counting in a number
     while(number>0){
          digits[count]=number%10;
